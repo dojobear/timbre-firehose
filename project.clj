@@ -1,6 +1,6 @@
 (defproject timbre-firehose "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "A timbre appender to send logs to firehose stream."
+  :url "http://github.com/dojobear/timbre-firehose"
   :plugins [[lein-midje "3.1.3"]]
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
