@@ -35,4 +35,7 @@
                 (create-output data))
    :fn (fn [data]
          (let [{:keys [output-fn]} data]
-           (with-aws-cred credential (fh/put-record stream-name (output-fn data)))))})
+           (try 
+             (with-aws-cred credential (fh/put-record stream-name (output-fn data)))
+             (catch java.lang.IllegalArgumentException _
+               nil))))})

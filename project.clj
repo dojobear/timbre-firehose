@@ -1,4 +1,4 @@
-(defproject timbre-firehose "0.1.0-SNAPSHOT"
+(defproject timbre-firehose "0.1.1"
   :description "A timbre appender to send logs to firehose stream."
   :url "http://github.com/dojobear/timbre-firehose"
   :plugins [[lein-midje "3.1.3"]]
