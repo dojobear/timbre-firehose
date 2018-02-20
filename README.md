@@ -1,6 +1,6 @@
 # timbre-firehose
 
-A <a href="https://github.com/ptaoussanis/timbre" title="Timbre appender"> utilizing the Amazonica library to send logs and errors to Firehose.
+A [Timbre](https://github.com/ptaoussanis/timbre) appender utilizing the Amazonica library to send logs and errors to Firehose.
 
 ```clojure
 [timbre-firehose "0.1.1"]
